@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+	<meta charset="utf-8">
+	<title>写真の名前</title>
+	<link rel="stylesheet" href="imgzoom.css" />
+</head>
+
+<body>
+	<div id="backbutton">
+		<button id="Btn">×</button>
+	</div>
+	<div id="imgzoom">
+		<img src="IMG_3853.jpg" alt="画像"/>
+	</div>
+	<script>
+		document.getElementById("Btn").onclick = async (event) => {
+			event.preventDefault();
+
+			location.href="index.html";
+		}
+	</script>
+</body>
+
+</html>
