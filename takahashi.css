@@ -1,0 +1,79 @@
+table {
+    border-collapse: collapse;
+  }
+  table th, table td {
+    border: solid 1px black;
+  }
+  /* 開園時間・入園料金 */
+.info-kaien,
+.info-ryoukin,
+.info-plusone{
+	border-collapse:collapse;
+	margin:10px 0;
+}
+
+.info-kaien tr th,
+.info-kaien tr td,
+.info-ryoukin tr th,
+.info-ryoukin tr td,
+.info-plusone tr th,
+.info-plusone tr td{
+	padding:5px 10px;
+	font-weight:normal;
+	border:1px solid #8e8e8e;
+}
+
+.info-ryoukin{
+	width:300px;
+}
+
+.info-ryoukin tr td{
+	text-align:center;
+}
+
+.info-plusone tr th,
+.info-plusone tr td{
+	text-align:left;
+}
+
+.info-plusone tr th{
+	white-space:nowrap;
+	background-color:#e6e6e6;
+}
+
+.info-kaien tr th,
+.info-ryoukin tr th,
+.info-plusone tr th{
+	background-color:#b6c454;
+}
+
+.beige{
+	background-color:#f5efe7;
+}
+
+
+.plus-one .txt{
+	width:calc(100% - 220px - 40px);
+}
+
+.plus-one .photo{
+	width:220px;
+}
+
+.plus-one #div_info_pdf{
+	font-size:80%;
+}
+
+.plus-one-pamphlet{
+	padding:40px 0 20px 0!important;
+}
+
+
+ul.list-icon{
+	margin:0;
+	padding:0 0 20px 20px;
+}
+
+ul.list-icon li{
+	padding:0 0 10px 0;
+}
